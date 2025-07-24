@@ -1,6 +1,6 @@
 
 import React from 'react';
-import secondImage from '@/assets/images/second.png';
+import aboutImg from '@/src/assets/images/about-image.jpg';
 
 
 const AboutSection: React.FC = () => {
@@ -23,12 +23,11 @@ const AboutSection: React.FC = () => {
           </div>
         </div>
         <div className="w-full h-96">
-              <img 
-        src={secondImage}
-        alt="About WA Contractor"
-        className="w-full h-full object-cover"
-      />
-
+            <img 
+                src="https://images.unsplash.com/photo-1542359649-31e03cdde675?q=80&w=1974&auto=format&fit=crop" 
+                alt="Abstract architectural detail"
+                className="w-full h-full object-cover"
+            />
         </div>
       </div>
     </section>
