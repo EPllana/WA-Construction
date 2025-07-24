@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { ArrowDown, FourPointStar } from './Icons';
-import firstImage from '@/assets/images/first.png';
+import firstImage from '@/assets/images/second.png';
 
 
 const ServiceItem: React.FC<{ label: string; title: string; }> = ({ label, title }) => (
@@ -38,16 +38,15 @@ const ServicesSection: React.FC = () => {
         </svg>
       </div>
        <div className="absolute top-24 right-0 w-1/2 h-[400px]">
-       <img
-        src={firstImage}
-        alt="Architectural drawing"
-        className="w-full h-full object-cover object-left mask-image"
-        style={{
-          maskImage: 'linear-gradient(to right, transparent, black 20%, black 80%, transparent)',
-          WebkitMaskImage: 'linear-gradient(to right, transparent, black 20%, black 80%, transparent)',
-        }}
-      />
-
+         <img 
+            src="https://images.unsplash.com/photo-1600607687839-a61943523b9a?q=80&w=1974&auto=format&fit=crop"
+            alt="Architectural drawing"
+            className="w-full h-full object-cover object-left mask-image"
+            style={{
+                maskImage: 'linear-gradient(to right, transparent, black 20%, black 80%, transparent)',
+                WebkitMaskImage: 'linear-gradient(to right, transparent, black 20%, black 80%, transparent)',
+            }}
+         />
        </div>
     </section>
   );

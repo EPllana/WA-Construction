@@ -39,14 +39,14 @@ const ServicesSection: React.FC = () => {
       </div>
        <div className="absolute top-24 right-0 w-1/2 h-[400px]">
        <img
-        src={firstImage}
-        alt="Architectural drawing"
-        className="w-full h-full object-cover object-left mask-image"
-        style={{
-          maskImage: 'linear-gradient(to right, transparent, black 20%, black 80%, transparent)',
-          WebkitMaskImage: 'linear-gradient(to right, transparent, black 20%, black 80%, transparent)',
-        }}
-      />
+  src={firstImage}
+  alt="Architectural drawing"
+  className="w-full h-full object-cover object-left mask-image"
+  style={{
+    maskImage: 'linear-gradient(to right, transparent, black 20%, black 80%, transparent)',
+    WebkitMaskImage: 'linear-gradient(to right, transparent, black 20%, black 80%, transparent)',
+  }}
+/>
 
        </div>
     </section>
